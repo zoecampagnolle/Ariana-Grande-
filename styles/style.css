@@ -1,4 +1,5 @@
 
+/* -----------------------------HTML------------------------------ */
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +23,63 @@
 header{
     padding-bottom: 40px;
 }
+
+.logoo{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: auto;
+    padding-top: 1%;
+}
+
+.portada{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.letra1 {
+	color: #FFFFFF;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2;
+	text-align: left;
+    margin-left: 2%;
+}
+
+.letra2 {
+	color: #FFFFFF;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2;
+	text-align: right;
+    margin-right: 2%;
+}
+
+.videoclip{
+    text-align: center;
+}
+
+.Letra {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.Publicidad-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* -----------------------------HTML------------------------------ */
+
+
+/* ------------------------prueba de nav----------------------  */
 
 /* .navbar{
     list-style-type: none;
@@ -75,6 +133,7 @@ header{
     margin: auto; 
 } */
 
+/* ------------------------------------Navbar--------------------------------- */
 .navv{
     background-color: transparent !important;
 }
@@ -98,23 +157,24 @@ header{
         }
 
 
-        .custom-toggler .navbar-toggler-icon {
-            background-image: url(
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        }
-
-.copyright {
-    color: antiquewhite;
-    margin: auto;
 }
 
+/* ------------------------------------Navbar--------------------------------- */
+
+
+/* -------------------------------------------------------Biografiaa-------------------------------------------------------*/
+
 .bio-rect {
+    display: flex;
     height: 290px;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 8px 8px 8px 8px;
     opacity: 65%;
     background: radial-gradient(circle at 50% 50%, rgb(111, 107, 99) 48%, rgba(31, 22, 18, 0.69) 99%);
@@ -123,70 +183,60 @@ header{
     border-style: solid;
     border-radius: 20px 20px 20px 20px;
     list-style-type: none;
+    justify-content: center;
     }
 
-    .bio-rect p{
-        margin: 0%;
+.bio-rect p{
+    margin: 0%;
     }
 
-
-.disc1{
-    width: 1178px;
-	height: 286px;
-	padding: 8px 8px 8px 8px;
-	opacity: 65%;
-	background: radial-gradient(circle at 50% 50%, rgb(113, 0, 0) 1%, rgba(0, 0, 0, 0.69) 66%);
-	border-color: #000000;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 20px 20px 20px 20px;
+.divbio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
-.logoo{
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: auto;
-    padding-top: 1%;
+.divbio2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
-.portada{
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: fit-content;
+.ulbiorect{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.letra1 {
-	color: #FFFFFF;
-	font-family: "Helvetica";
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 2;
-	text-align: left;
-    margin-left: 2%;
+.biotitle{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 0%;
 }
 
-.letra2 {
-	color: #FFFFFF;
-	font-family: "Helvetica";
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 2;
-	text-align: right;
-    margin-right: 2%;
-}
-
-.videoclip{
-    text-align: center;
-}
-
-.Letra {
+.biotext{
     color: #FFFFFF;
     text-align: center;
-    font-size: 2rem;
-    padding: 2%;
+    font-size: 22px;
+    width: 90%;
+    font-family: "Helvetica";
+    opacity: none;
 }
+
+.babyariana{
+    width: 341px;
+    height: 213px;
+    opacity: 90%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* -------------------------------------------------------Biografiaa-------------------------------------------------------*/
+
+
+/* ---------------------------------------Footer---------------------------------------------- */
 
 .footer{
     background-color: #000000;
@@ -203,6 +253,14 @@ header{
     font-family: helvetica;
 }
 
+.copyright {
+    color: antiquewhite;
+    margin: auto;
+}
+
+/* ---------------------------------------Footer---------------------------------------------- */
+
+/* ---------------------------------------Pagina contacto--------------------------------------- */
 
 .contacto1{
     color: #FFFFFF;
@@ -217,6 +275,11 @@ header{
     margin: auto;
     text-align: center;
 }
+
+/* ---------------------------------------Pagina contacto--------------------------------------- */
+
+
+/* ---------------------------------------Pagina Discografia--------------------------------------- */
 
 .discotexto{
     color: #FFFFFF;
@@ -244,14 +307,6 @@ header{
     color: #FFFFFF;
     text-align: center;
 }
-
-.babyariana{
-    width: 341px;
-    height: 213px;
-    opacity: 90%;
-    border-radius: 10px 10px 10px 10px;
-}
-
 
 .album-card{
     display: flex;
@@ -303,18 +358,21 @@ header{
     flex: 1;
 }
 
-.biotitle{
-    display: flex;
-    color: #FFFFFF;
-    font-size: 35px;
+.disc1{
+    width: 1178px;
+	height: 286px;
+	padding: 8px 8px 8px 8px;
+	opacity: 65%;
+	background: radial-gradient(circle at 50% 50%, rgb(113, 0, 0) 1%, rgba(0, 0, 0, 0.69) 66%);
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 20px 20px 20px 20px;
 }
 
-.biotext{
-    display: flex;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-}
+/* ---------------------------------------Pagina Discografia--------------------------------------- */
+
+/* ---------------------------------------Grid--------------------------------------- */
 
 .grid-main{
     display: grid;
@@ -342,10 +400,9 @@ header{
     grid-area: footer;
 }
 
-.Publicidad-img{
-    height: 100%;
-    width: 100%;
-}
+/* ---------------------------------------Grid--------------------------------------- */
+
+/* Prueba de video */
 
 /* .video-container{
     position: relative;
