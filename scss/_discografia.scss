@@ -1,0 +1,52 @@
+.index-body {
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(86,7,5,1) 41%, rgba(0,0,0,1) 100% );
+    background-repeat:no-repeat;
+    background-size: cover;
+    .DiscSect{
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 2%;
+        .titulodisco{
+            color: #FFFFFF;
+            font-family: "Source Sans 3";
+            text-align: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 0.5%;
+        }
+        .cardcont{
+            padding-bottom: 2%;
+            .card{
+                padding: 2%;
+                color: #FFFFFF;
+                opacity: 65%;
+                background: radial-gradient(circle at 50% 50%, rgb(113, 0, 0) 1%, rgba(0, 0, 0, 0.69) 66%);
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 20px 20px 20px 20px;
+                list-style-type: none;
+                .ftoalbum{
+                    width: 20%; 
+                    height: auto;
+                }
+                .card-body{
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    .card-title{
+                        font-family: "Carattere", cursive;
+                        font-size: 4vh;
+                    }
+                    .card-text{
+                        font-family: "Source Sans 3", sans-serif;
+                        font-size: 2vh;
+                    }
+                }
+                .ftoqr{
+                    width: 20%; 
+                    padding: 2%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

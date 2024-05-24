@@ -1,0 +1,247 @@
+html header {
+  padding-bottom: 40px;
+}
+html header .logoo {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: auto;
+  padding-top: 1%;
+}
+html header .navv {
+  background-color: transparent !important;
+}
+html header .navv a {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+}
+html header .navv .custom-toggler {
+  border-color: white;
+}
+html header .navv .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.portada {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.Publicidad-img {
+  height: 100%;
+  width: 100%;
+}
+
+.Letra {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
+}
+
+.letra1 {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.letra2 {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: right;
+  margin-right: 2%;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "imagen publicidad";
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+
+.grid-imagen {
+  grid-area: imagen;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-aside {
+  grid-area: publicidad;
+}
+
+.grid-section {
+  grid-area: section;
+}
+
+.grid-footer {
+  grid-area: footer;
+}
+
+.biografia-body {
+  background-image: url("../img/download_image_1713132912678.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.biografia-body .ulbiorect {
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biografia-body .ulbiorect .bio-rect {
+  display: flex;
+  height: 290px;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  padding: 8px 8px 8px 8px;
+  opacity: 65%;
+  background: radial-gradient(circle at 50% 50%, rgb(111, 107, 99) 48%, rgba(31, 22, 18, 0.69) 99%);
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  list-style-type: none;
+  justify-content: center;
+}
+.biografia-body .ulbiorect .bio-rect .biotext {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 90%;
+  font-family: "Helvetica";
+  opacity: none;
+}
+.biografia-body .ulbiorect .bio-rect .divbio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.biografia-body .ulbiorect .bio-rect .divbio .biotitle {
+  color: #FFFFFF;
+  font-size: 35px;
+  margin-bottom: 0%;
+}
+.biografia-body .ulbiorect .bio-rect .divbio .babyariana {
+  width: 341px;
+  height: 213px;
+  opacity: 90%;
+  border-radius: 10px 10px 10px 10px;
+}
+.biografia-body .ulbiorect .bio-rect .divbio2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.biografia-body .ulbiorect .bio-rect .divbio2 .biotext {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  width: 90%;
+  font-family: "Helvetica";
+  opacity: none;
+}
+
+.index-body {
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(86, 7, 5) 41%, rgb(0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index-body .DiscSect {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+}
+.index-body .DiscSect .titulodisco {
+  color: #FFFFFF;
+  font-family: "Source Sans 3";
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.5%;
+}
+.index-body .DiscSect .cardcont {
+  padding-bottom: 2%;
+}
+.index-body .DiscSect .cardcont .card {
+  padding: 2%;
+  color: #FFFFFF;
+  opacity: 65%;
+  background: radial-gradient(circle at 50% 50%, rgb(113, 0, 0) 1%, rgba(0, 0, 0, 0.69) 66%);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  list-style-type: none;
+}
+.index-body .DiscSect .cardcont .card .ftoalbum {
+  width: 20%;
+  height: auto;
+}
+.index-body .DiscSect .cardcont .card .card-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.index-body .DiscSect .cardcont .card .card-body .card-title {
+  font-family: "Carattere", cursive;
+  font-size: 4vh;
+}
+.index-body .DiscSect .cardcont .card .card-body .card-text {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 2vh;
+}
+.index-body .DiscSect .cardcont .card .ftoqr {
+  width: 20%;
+  padding: 2%;
+  height: auto;
+}
+
+.index-body {
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(86, 7, 5) 41%, rgb(0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index-body .contacto1 {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  margin: auto;
+  text-align: center;
+}
+.index-body .frcto {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contacto1 {
+    font-size: 1rem;
+  }
+  .Letra {
+    font-size: 1.5rem;
+  }
+  .letra1 {
+    font-size: 1rem;
+  }
+  .letra2 {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,71 @@
+.biografia-body{
+    background-image: url("../img/download_image_1713132912678.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    .ulbiorect{
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .bio-rect {
+            display: flex;
+            height: 290px;
+            flex-direction: row;
+            align-items: center;
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            padding: 8px 8px 8px 8px;
+            opacity: 65%;
+            background: radial-gradient(circle at 50% 50%, rgb(111, 107, 99) 48%, rgba(31, 22, 18, 0.69) 99%);
+            border-color: #232323;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 20px 20px 20px 20px;
+            list-style-type: none;
+            justify-content: center;
+            .biotext{
+                color: white;
+                text-align: center;
+                font-size: 18px;
+                width: 90%;
+                font-family: "Helvetica";
+                opacity: none;
+            }
+            .divbio{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 40%;
+                .biotitle{
+                    color: #FFFFFF;
+                    font-size: 35px;
+                    margin-bottom: 0%;
+                }
+                .babyariana{
+                    width: 341px;
+                    height: 213px;
+                    opacity: 90%;
+                    border-radius: 10px 10px 10px 10px;
+                }
+            }
+            .divbio2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 40%;
+                .biotext{
+                    color: #FFFFFF;
+                    text-align: center;
+                    font-size: 22px;
+                    width: 90%;
+                    font-family: "Helvetica";
+                    opacity: none;
+                }
+            }
+        }
+    }
+}
+
+
+

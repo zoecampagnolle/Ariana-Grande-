@@ -144,15 +144,15 @@ header{
     font-size: 1.5rem;
 }
 
-.frcto{
+/* .frcto{
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 10%;
     color: #FFFFFF;
-}
+} */
 
-.custom-toggler.navbar-toggler {
+.custom-toggler {
             border-color: white;
         }
 
@@ -237,7 +237,7 @@ header{
 
 
 /* ---------------------------------------Footer---------------------------------------------- */
-
+/* 
 .footer{
     background-color: #000000;
     background-size: auto;
@@ -255,8 +255,8 @@ header{
 
 .copyright {
     color: antiquewhite;
-    margin: auto;
-}
+    margin: auto; */
+/* } */
 
 /* ---------------------------------------Footer---------------------------------------------- */
 
@@ -269,19 +269,19 @@ header{
     text-align: center;
 }
 
-.artistas{
+/* .artistas{
     color: #FFFFFF;
     font-family:"Source Sans Pro";
     margin: auto;
     text-align: center;
-}
+} */
 
 /* ---------------------------------------Pagina contacto--------------------------------------- */
 
 
 /* ---------------------------------------Pagina Discografia--------------------------------------- */
 
-.discotexto{
+/* .discotexto{
     color: #FFFFFF;
     font-family: "Source Sans Pro";
     margin: auto;
@@ -367,8 +367,65 @@ header{
 	border-color: #000000;
 	border-width: 1px;
 	border-style: solid;
-	border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px; 
+}*/
+
+/* .DiscSect{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
 }
+
+.card-title{
+    font-family: "Carattere", cursive;
+    font-size: 4vh;
+}
+
+.card-text{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 2vh;
+}
+
+.card{
+    padding: 2%;
+    color: #FFFFFF;
+    opacity: 65%;
+    background: radial-gradient(circle at 50% 50%, rgb(113, 0, 0) 1%, rgba(0, 0, 0, 0.69) 66%);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    list-style-type: none;
+}
+
+.card-body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.ftoalbum{
+    width: 20%; 
+    height: auto;
+}
+
+.ftoqr{
+    width: 20%; 
+    padding: 2%;
+    height: auto;
+}
+
+.cardcont{
+    padding-bottom: 2%;
+}
+
+.titulodisco{
+    color: #FFFFFF;
+    font-family: "Source Sans 3";
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+} */
 
 /* ---------------------------------------Pagina Discografia--------------------------------------- */
 
