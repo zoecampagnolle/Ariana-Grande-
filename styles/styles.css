@@ -13,7 +13,7 @@ html header .navv {
 }
 html header .navv a {
   color: #FFFFFF;
-  font-family: Helvetica;
+  font-family: "Helvetica";
   font-size: 1.5rem;
 }
 html header .navv .custom-toggler {
@@ -219,7 +219,7 @@ html header .navv .custom-toggler .navbar-toggler-icon {
 }
 .index-body .contacto1 {
   color: #FFFFFF;
-  font-family: "Source Sans Pro";
+  font-family: "Helvetica";
   margin: auto;
   text-align: center;
 }
