@@ -1,0 +1,38 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 200%; 
+    overflow: hidden;
+    margin-bottom: 20px;
+        img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.button-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+        button {
+        margin: 5px 0;
+    }
+}
+
+.TextEmoc {
+    font-family: "Helvetica";
+    color: #FFFFFF;
+}
+
+.TextEmoc-white {
+    font-family: "Helvetica";
+    color: gray;
+}

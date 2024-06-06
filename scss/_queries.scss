@@ -18,3 +18,12 @@
 
 @media screen and (min-width: 1024px){
 }
+
+@media screen and (max-width: 768px){
+    .ftoalbum{
+        width: 200px !important;
+    }
+    .ftoqr{ 
+        width: 200px !important; 
+    }
+}
