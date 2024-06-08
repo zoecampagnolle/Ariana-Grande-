@@ -90,6 +90,11 @@ html header .navv .custom-toggler .navbar-toggler-icon {
   grid-area: footer;
 }
 
+.videoindex {
+  display: flex;
+  width: 100%;
+}
+
 .biografia-body {
   background-image: url("../img/download_image_1713132912678.png");
   background-repeat: no-repeat;
