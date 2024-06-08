@@ -93,70 +93,50 @@ html header .navv .custom-toggler .navbar-toggler-icon {
 .biografia-body {
   background-image: url("../img/download_image_1713132912678.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
-.biografia-body .ulbiorect {
-  padding: 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.biografia-body .ulbiorect .bio-rect {
-  display: flex;
-  height: 290px;
-  flex-direction: row;
-  align-items: center;
-  width: 90%;
-  padding: 10px;
-  margin: 10px 0;
-  padding: 8px 8px 8px 8px;
-  opacity: 65%;
-  background: radial-gradient(circle at 50% 50%, rgb(111, 107, 99) 48%, rgba(31, 22, 18, 0.69) 99%);
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 20px 20px 20px 20px;
-  list-style-type: none;
-  justify-content: center;
-}
-.biografia-body .ulbiorect .bio-rect .biotext {
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  width: 90%;
-  font-family: "Helvetica";
-  opacity: none;
-}
-.biografia-body .ulbiorect .bio-rect .divbio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-}
-.biografia-body .ulbiorect .bio-rect .divbio .biotitle {
+
+.biotitle {
   color: #FFFFFF;
   font-size: 35px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
-.biografia-body .ulbiorect .bio-rect .divbio .babyariana {
-  width: 341px;
-  height: 213px;
-  opacity: 90%;
-  border-radius: 10px 10px 10px 10px;
+
+.babyariana {
+  opacity: 0.9;
+  border-radius: 10px;
+  opacity: 100% !important;
+  width: 55%;
+  height: auto;
 }
-.biografia-body .ulbiorect .bio-rect .divbio2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-}
-.biografia-body .ulbiorect .bio-rect .divbio2 .biotext {
-  color: #FFFFFF;
+
+.biotext {
+  color: white;
   text-align: center;
-  font-size: 22px;
-  width: 90%;
+  font-size: 25px;
   font-family: "Helvetica";
-  opacity: none;
+}
+
+.bio-rect {
+  background: radial-gradient(circle at 50% 50%, rgba(111, 107, 99, 0.65) 48%, rgba(31, 22, 18, 0.65) 99%);
+  border: 1px solid #232323;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bio-container {
+  margin: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.myeveryAriana {
+  border-radius: 10px;
+  opacity: 100% !important;
+  width: 75%;
+  height: auto;
+  justify-content: center !important;
 }
 
 .index-body {
@@ -245,6 +225,31 @@ html header .navv .custom-toggler .navbar-toggler-icon {
     font-size: 1rem;
   }
 }
+@media (min-width: 768px) {
+  .biotext {
+    font-size: 85%;
+  }
+}
+@media (min-width: 1024px) {
+  .biotext {
+    font-size: 110%;
+  }
+}
+@media (min-width: 1440px) {
+  .biotext {
+    font-size: 120%;
+  }
+}
+@media (min-width: 1025px) {
+  .babyariana {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .babyariana {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 768px) {
   .ftoalbum {
     width: 200px !important;
@@ -277,7 +282,7 @@ html header .navv .custom-toggler .navbar-toggler-icon {
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 .button-group button {
   margin: 5px 0;

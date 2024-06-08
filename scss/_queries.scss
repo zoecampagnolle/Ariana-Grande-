@@ -13,10 +13,35 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px){
+    .biotext{
+        font-size: 85%;
+    }
 }
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
+    .biotext{
+        font-size: 110%;
+    }
+}
+
+@media (min-width: 1440px){
+    .biotext{
+        font-size: 120%;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .babyariana{
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .babyariana{
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -27,3 +52,4 @@
         width: 200px !important; 
     }
 }
+
